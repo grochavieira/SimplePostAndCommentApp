@@ -18,11 +18,11 @@ class CommentsController {
   }
 
   async create(request: Request, response: Response) {
-    const { author, content } = request.body;
+    const { username, content } = request.body;
     const { id } = request.params;
 
     const comment = {
-      author,
+      username,
       content,
       post_id: id,
     };

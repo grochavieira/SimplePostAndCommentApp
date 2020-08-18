@@ -4,7 +4,7 @@ export async function up(knex: Knex) {
   return knex.schema.createTable("comments", (table) => {
     table.increments("id").primary();
     table.integer("post_id").notNullable().references("id").inTable("posts");
-    table.string("author").notNullable();
+    table.string("username").notNullable();
     table.string("content").notNullable();
   });
 }

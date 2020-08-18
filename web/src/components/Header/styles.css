@@ -4,7 +4,7 @@ header.container {
 
   justify-content: center;
   align-items: center;
-  background-color: #41e2ba;
+  background-color: #256eff;
 }
 
 header.container ul {
@@ -27,12 +27,13 @@ header.container ul li {
   padding: 20px 0px;
   cursor: pointer;
   color: #eee;
-  border-bottom: 2px solid #41e2ba;
+  border-bottom: 2px solid #256eff;
+  transition: 0.2s;
 }
 
 header.container ul li:hover {
-  background-color: #34b191;
-  border-bottom: 2px solid #237a64;
+  background-color: #215ed8;
+  border-bottom: 2px solid #1b4599;
 }
 
 header.container ul a {
@@ -42,8 +43,8 @@ header.container ul a {
 }
 
 header.container ul li.on {
-  background-color: #34b191;
-  border-bottom: 2px solid #237a64;
+  background-color: #215ed8;
+  border-bottom: 2px solid #1b4599;
 }
 
 @media (min-width: 700px) {

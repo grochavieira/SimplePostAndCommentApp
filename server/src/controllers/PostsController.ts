@@ -19,11 +19,11 @@ class PostsController {
     return response.json(post);
   }
   async create(request: Request, response: Response) {
-    const { author, content } = request.body;
+    const { username, content } = request.body;
 
     const post = {
       image: "image",
-      author,
+      username,
       content,
     };
 

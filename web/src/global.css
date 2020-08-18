@@ -21,6 +21,7 @@ body {
 
 body,
 input,
+textarea,
 button {
   font-family: "Raleway", Arial, Helvetica, sans-serif;
 }
