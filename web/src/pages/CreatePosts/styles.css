@@ -11,6 +11,8 @@
   max-width: 600px;
   background-color: #fff;
   border-radius: 5px;
+  box-shadow: 0px 0px 14px 0px rgba(0, 0, 0, 0.2);
+  margin-bottom: 50px;
 }
 
 .input-block {
@@ -29,7 +31,7 @@
 .input-block input {
   font-size: 1.5rem;
   border: 0;
-  border-radius: 5px;
+  border-radius: 4px;
   background-color: #ddd;
   padding: 10px;
   color: #333;
@@ -37,7 +39,7 @@
 .input-block textarea {
   font-size: 1.5rem;
   border: 0;
-  border-radius: 5px;
+  border-radius: 4px;
   background-color: #ddd;
   padding: 10px;
   min-height: 200px;

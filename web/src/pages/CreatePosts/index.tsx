@@ -5,21 +5,32 @@ import Header from "../../components/Header";
 import api from "../../services/api";
 
 import "./styles.css";
+import ImageDropzone from "../../components/ImageDropzone";
 
 function CreatePosts() {
   const [username, setUsername] = useState("");
   const [content, setContent] = useState("");
+  const [selectedFile, setSelectedFile] = useState<File>();
 
   async function handleSubmit(event: FormEvent) {
     event.preventDefault();
-    const data = {
-      username,
-      content,
-    };
 
-    const response = await api.post("/posts", data);
-    console.log(response);
-    alert("Post criado com sucesso!");
+    const data = new FormData();
+    data.append("username", username);
+    data.append("content", content);
+
+    if (selectedFile) {
+      data.append("image", selectedFile);
+    }
+
+    try {
+      const response = await api.post("/posts", data);
+      console.log(response);
+      alert("Post criado com sucesso!");
+    } catch (error) {
+      console.log(error);
+      alert("Não foi possível criar o Post!");
+    }
   }
 
   return (
@@ -46,6 +57,8 @@ function CreatePosts() {
               placeholder="Digite sobre algum assunto, tema ou tópico..."
             />
           </div>
+
+          <ImageDropzone onFileUploaded={setSelectedFile} />
 
           <button type="submit">Criar Post</button>
         </form>
