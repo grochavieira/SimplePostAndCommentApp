@@ -1,11 +1,12 @@
 import React, { useState, FormEvent } from "react";
-
 import Header from "../../components/Header";
-
+import ImageDropzone from "../../components/ImageDropzone";
+import Input from "../../components/Input";
+import TextArea from "../../components/TextArea";
+import Button from "../../components/Button";
 import api from "../../services/api";
 
 import "./styles.css";
-import ImageDropzone from "../../components/ImageDropzone";
 
 function CreatePosts() {
   const [username, setUsername] = useState("");
@@ -38,29 +39,23 @@ function CreatePosts() {
       <Header currentTab="create" />
       <div className="create-container">
         <form onSubmit={handleSubmit}>
-          <div className="input-block">
-            <label htmlFor="user">Usuário</label>
-            <input
-              value={username}
-              onChange={(e) => setUsername(e.target.value)}
-              type="text"
-              name="user"
-              placeholder="Digite seu nome de usuário..."
-            />
-          </div>
-          <div className="input-block">
-            <label htmlFor="user">Conteúdo do Post</label>
-            <textarea
-              value={content}
-              onChange={(e) => setContent(e.target.value)}
-              name="user"
-              placeholder="Digite sobre algum assunto, tema ou tópico..."
-            />
-          </div>
+          <Input
+            value={username}
+            setValue={setUsername}
+            label="Usuário"
+            name="user"
+            placeholder="Digite seu nome de usuário..."
+          />
+          <TextArea
+            value={content}
+            setValue={setContent}
+            label="Conteúdo do Post"
+            name="user"
+            placeholder="Digite sobre algum assunto, tema ou tópico..."
+          />
 
           <ImageDropzone onFileUploaded={setSelectedFile} />
-
-          <button type="submit">Criar Post</button>
+          <Button label="Criar Post" />
         </form>
       </div>
     </>

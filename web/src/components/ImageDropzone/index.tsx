@@ -35,7 +35,8 @@ const ImageDropzone: React.FC<ImageDropzoneProps> = ({ onFileUploaded }) => {
       ) : (
         <p>
           <FiUpload />
-          Arreste e solte uma imagem aqui, ou clique para selecionar imagens...
+          Arreste e solte uma imagem aqui,
+          <br /> ou clique para selecionar imagens...
         </p>
       )}
     </div>
