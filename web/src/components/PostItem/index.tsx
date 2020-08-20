@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, FormEvent } from "react";
 import { FaUserCircle } from "react-icons/fa";
 import { IoIosArrowDown, IoIosArrowUp } from "react-icons/io";
 import CommentItem, { Comment } from "../CommentItem";
@@ -26,12 +26,29 @@ const PostItem: React.FC<PostProps> = ({ post }) => {
   const [showComments, setShowComments] = useState(false);
   const [comments, setComments] = useState<Comment[]>([]);
 
+  async function addComment(event: FormEvent) {
+    event.preventDefault();
+    const data = {
+      username,
+      content,
+    };
+
+    const response = await api.post(`posts/${post.id}/comments`, data);
+
+    console.log(response);
+    searchComments();
+  }
+
   async function searchComments() {
+    const { data } = await api.get(`posts/${post.id}/comments`);
+    console.log(data);
+    setComments(data);
+  }
+
+  async function showPostComments() {
     setShowComments(!showComments);
     if (!showComments) {
-      const { data } = await api.get(`posts/${post.id}/comments`);
-      console.log(data);
-      setComments(data);
+      await searchComments();
     }
   }
 
@@ -54,7 +71,7 @@ const PostItem: React.FC<PostProps> = ({ post }) => {
       <div className="comment-block">
         {showComments ? (
           <div className="comment-section">
-            <div onClick={searchComments} className="show comments">
+            <div onClick={showPostComments} className="show comments">
               <p> Comentários </p> <IoIosArrowDown size={20} />{" "}
             </div>
 
@@ -69,7 +86,7 @@ const PostItem: React.FC<PostProps> = ({ post }) => {
             )}
 
             <div className="add-comment">
-              <form onSubmit={() => {}}>
+              <form onSubmit={addComment}>
                 <Input
                   value={username}
                   setValue={setUsername}
@@ -89,7 +106,7 @@ const PostItem: React.FC<PostProps> = ({ post }) => {
             </div>
           </div>
         ) : (
-          <div onClick={searchComments} className="hide comments">
+          <div onClick={showPostComments} className="hide comments">
             <p> Comentários </p> <IoIosArrowUp size={20} />
           </div>
         )}

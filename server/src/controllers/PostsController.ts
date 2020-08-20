@@ -3,9 +3,10 @@ import knex from "../database/connection";
 
 class PostsController {
   async index(request: Request, response: Response) {
+    const page = Number(request.query.page);
     const posts = await knex("posts").select("*");
 
-    const serializedPosts = posts.map((post) => {
+    let serializedPosts = posts.map((post) => {
       return {
         ...post,
         image_url: post.image
@@ -14,7 +15,14 @@ class PostsController {
       };
     });
 
-    return response.json(serializedPosts);
+    const totalResults = serializedPosts.length;
+
+    serializedPosts = serializedPosts.slice(5 * (page - 1), page * 5);
+
+    return response.json({
+      posts: serializedPosts,
+      totalResults: totalResults,
+    });
   }
   async show(request: Request, response: Response) {
     const { id } = request.params;
