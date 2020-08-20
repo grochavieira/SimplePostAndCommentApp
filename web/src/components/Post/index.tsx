@@ -1,6 +1,9 @@
-import React from "react";
+import React, { useState } from "react";
 import { FaUserCircle } from "react-icons/fa";
+import { IoIosArrowDown, IoIosArrowUp } from "react-icons/io";
+import CommentItem, { Comment } from "../CommentItem";
 import "./styles.css";
+import api from "../../services/api";
 
 export interface Post {
   id: number;
@@ -15,6 +18,18 @@ interface PostProps {
 }
 
 const PostItem: React.FC<PostProps> = ({ post }) => {
+  const [showComments, setShowComments] = useState(false);
+  const [comments, setComments] = useState<Comment[]>([]);
+
+  async function searchComments() {
+    setShowComments(!showComments);
+    if (!showComments) {
+      const { data } = await api.get(`posts/${post.id}/comments`);
+      console.log(data);
+      setComments(data);
+    }
+  }
+
   return (
     <div className="post-container">
       <div className="main-block">
@@ -31,6 +46,33 @@ const PostItem: React.FC<PostProps> = ({ post }) => {
       ) : (
         ""
       )}
+      <div className="comment-block">
+        {showComments ? (
+          <div className="comment-section">
+            <div onClick={searchComments} className="show comments">
+              <p> Comentários </p> <IoIosArrowDown size={20} />{" "}
+            </div>
+
+            {comments.length > 0 ? (
+              comments.map((comment: Comment) => (
+                <CommentItem key={comment.id} comment={comment} />
+              ))
+            ) : (
+              <div className="message">
+                <p> Não existem comentários para esse post...</p>
+              </div>
+            )}
+
+            <div className="add-comment">
+              <button>Adicionar Comentário</button>
+            </div>
+          </div>
+        ) : (
+          <div onClick={searchComments} className="hide comments">
+            <p> Comentários </p> <IoIosArrowUp size={20} />
+          </div>
+        )}
+      </div>
     </div>
   );
 };
