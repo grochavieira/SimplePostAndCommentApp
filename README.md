@@ -2,6 +2,20 @@
 
 Aplicação simples de posts e comentários
 
+## Configurações Posteriores
+
+Antes de rodar o servidor e a aplicação, é necessário baixar os arquivos de dependências da pasta node_modules para dentro de seus respectivos diretórios, logo, para baixar as dependências do servidor, entre na pasta "server" e rode o comando abaixo no terminal:
+
+```console
+npm install
+```
+
+E no caso da aplicação, entre na pasta "web" e rode o seguinte comando no terminal:
+
+```console
+yarn install
+```
+
 ## Como Rodar o Servidor da Aplicação?
 
 Antes de efetivamente rodar o servidor da aplicação, é necessário criar o banco de dados do sistema. Assim, basta acessar a pasta "server", e dentro desse diretório rodar no terminal o seguinte comando:
