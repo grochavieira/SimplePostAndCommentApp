@@ -2,7 +2,7 @@
 
 Aplicação simples de posts e comentários
 
-## Configurações Posteriores
+## Instalação de Dependências
 
 Antes de rodar o servidor e a aplicação, é necessário baixar os arquivos de dependências da pasta node_modules para dentro de seus respectivos diretórios, logo, para baixar as dependências do servidor, entre na pasta "server" e rode o comando abaixo no terminal:
 
