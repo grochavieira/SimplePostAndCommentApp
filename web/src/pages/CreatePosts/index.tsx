@@ -26,7 +26,8 @@ function CreatePosts() {
 
     try {
       const response = await api.post("/posts", data);
-      console.log(response);
+      setUsername("");
+      setContent("");
       alert("Post criado com sucesso!");
     } catch (error) {
       console.log(error);

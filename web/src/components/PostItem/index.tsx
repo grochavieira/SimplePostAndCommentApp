@@ -2,11 +2,12 @@ import React, { useState, FormEvent } from "react";
 import { FaUserCircle } from "react-icons/fa";
 import { IoIosArrowDown, IoIosArrowUp } from "react-icons/io";
 import CommentItem, { Comment } from "../CommentItem";
-import "./styles.css";
-import api from "../../services/api";
 import Button from "../Button";
 import Input from "../Input";
 import TextArea from "../TextArea";
+import api from "../../services/api";
+
+import "./styles.css";
 
 export interface Post {
   id: number;
@@ -33,10 +34,15 @@ const PostItem: React.FC<PostProps> = ({ post }) => {
       content,
     };
 
-    const response = await api.post(`posts/${post.id}/comments`, data);
-
-    console.log(response);
-    searchComments();
+    try {
+      const response = await api.post(`posts/${post.id}/comments`, data);
+      setUsername("");
+      setContent("");
+      console.log(response);
+      searchComments();
+    } catch (error) {
+      console.log(error);
+    }
   }
 
   async function searchComments() {
