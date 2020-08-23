@@ -61,6 +61,14 @@ Uma aplicação simples de posts e comentários como o twitter/facebook.
 
 ## 🎨 Layout
 
+Criação de posts:
+
+<p align="center">
+    <img src="assets/create_post.gif" width="50%" height="50%">
+</p>
+
+Comentários:
+
 ---
 
 ## 🚀 Como executar o projeto
@@ -162,19 +170,13 @@ As seguintes ferramentas foram usadas na construção do projeto:
 
 ---
 
-img[src*="#author"] {
-width:150px;
-height:100px;
-border-radius: 50px;
-}
-
 <a name="-autor"></a>
 
 ## 🦸‍♂️ **Autor**
 
 <p>
-<kbd style="border-radius: 50px;">
- <img src="https://avatars1.githubusercontent.com/u/48029638?s=460&u=f8d11a7aa9ce76a782ef140a075c5c81be878f00&v=4#author" width="100px;" alt=""/>
+<kbd>
+ <img src="https://avatars1.githubusercontent.com/u/48029638?s=460&u=f8d11a7aa9ce76a782ef140a075c5c81be878f00&v=4" width="150px;" alt=""/>
  </kbd>
  <br />
  <sub><b>Guilherme Rocha</b></sub>
