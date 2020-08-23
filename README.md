@@ -25,10 +25,9 @@
 
 ## 🏁 Tópicos
 
-- [Funcionalidades](#funcionalidades)
 <p>
  👉<a href="#-sobre-o-projeto" style="text-decoration: none; ">Sobre</a> <br/>
-
+👉<a href="#-funcionalidades" style="text-decoration: none; ">Funcionalidades</a> <br/>
 👉<a href="#-layout" style="text-decoration: none">Layout</a> <br/>
 👉<a href="#-como-executar-o-projeto" style="text-decoration: none">Como executar</a> <br/>
 👉<a href="#-tecnologias" style="text-decoration: none">Tecnologias</a> <br/>
@@ -162,6 +161,8 @@ As seguintes ferramentas foram usadas na construção do projeto:
 - Fontes: **[Raleway](https://fonts.google.com/specimen/Raleway)**
 
 ---
+
+<a name="autor"></a>
 
 ## 🦸‍♂️ **Autor**
 
