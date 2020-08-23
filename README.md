@@ -25,14 +25,16 @@
 
 ## 🏁 Tópicos
 
+- [Funcionalidades](#funcionalidades)
 <p>
  👉<a href="#-sobre-o-projeto" style="text-decoration: none; ">Sobre</a> <br/>
- - [Funcionalidades](#funcionalidades)
- 👉<a href="#-layout" style="text-decoration: none">Layout</a> <br/>
- 👉<a href="#-como-executar-o-projeto" style="text-decoration: none">Como executar</a> <br/> 
- 👉<a href="#-tecnologias" style="text-decoration: none">Tecnologias</a> <br/>
- 👉<a href="#-autor" style="text-decoration: none">Autor</a> <br/>
- 👉<a href="#user-content--licença" style="text-decoration: none">Licença</a>
+
+👉<a href="#-layout" style="text-decoration: none">Layout</a> <br/>
+👉<a href="#-como-executar-o-projeto" style="text-decoration: none">Como executar</a> <br/>
+👉<a href="#-tecnologias" style="text-decoration: none">Tecnologias</a> <br/>
+👉<a href="#-autor" style="text-decoration: none">Autor</a> <br/>
+👉<a href="#user-content--licença" style="text-decoration: none">Licença</a>
+
 </p>
 
 ## 💻 Sobre o projeto
