@@ -195,7 +195,7 @@ As seguintes ferramentas foram usadas na construção do projeto:
  <img src="https://avatars1.githubusercontent.com/u/48029638?s=460&u=f8d11a7aa9ce76a782ef140a075c5c81be878f00&v=4" width="150px;" alt=""/>
  </kbd>
  <br />
- <sub><b>Guilherme Rocha</b></sub>
+ <sub><strong>Guilherme Rocha Vieira</strong></sub>
 </p>
 
 [![Linkedin Badge](https://img.shields.io/badge/-Guilherme-blue?style=for-the-badge&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/grochavieira/)](https://www.linkedin.com/in/grochavieira/)
