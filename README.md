@@ -167,7 +167,7 @@ As seguintes ferramentas foram usadas na construção do projeto:
 ## 🦸‍♂️ **Autor**
 
 <p>
-<div class="circle">
+<div class="border circle p-3">
  <img style="border-radius: 50px;" src="https://avatars1.githubusercontent.com/u/48029638?s=460&u=f8d11a7aa9ce76a782ef140a075c5c81be878f00&v=4" width="100px;" alt=""/>
  </div>
  <br />
