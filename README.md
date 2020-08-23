@@ -4,8 +4,7 @@
   <img alt="Repository size" src="https://img.shields.io/github/repo-size/grochavieira/SimpleSocialMediaApp?style=for-the-badge">
   
   <a href="https://github.com/grochavieira/SimpleSocialMediaApp/commits/master">
-    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/
-    grochavieira/SimpleSocialMediaApp?style=for-the-badge">
+    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/grochavieira/SimpleSocialMediaApp?style=for-the-badge">
   </a>
     
    <img alt="License" src="https://img.shields.io/badge/license-MIT-brightgreen?style=for-the-badge">
@@ -27,7 +26,7 @@
 ## 🏁 Tópicos
 
 <p>
- 👉<a href="#-sobre-o-projeto" style="text-decoration: none; "> Sobre</a> <br/>
+ 👉<a href="#-sobre-o-projeto" style="text-decoration: none; ">Sobre</a> <br/>
  👉<a href="#-funcionalidades" style="text-decoration: none">Funcionalidades</a> <br/>
  👉<a href="#-layout" style="text-decoration: none">Layout</a> <br/>
  👉<a href="#-como-executar-o-projeto" style="text-decoration: none">Como executar</a> <br/> 
@@ -92,7 +91,7 @@ $ cd server
 # Instale as dependências com npm
 $ npm install
 
-# Crie o bando de dados do sistema
+# Crie o banco de dados do sistema
 $ npm run knex:migrate
 
 # Execute a aplicação
@@ -140,7 +139,7 @@ As seguintes ferramentas foram usadas na construção do projeto:
 
 > Veja o arquivo [package.json](https://github.com/grochavieira/SimpleSocialMediaApp/blob/master/web/package.json)
 
-#### ([NodeJS](https://nodejs.org/en/) + [TypeScript](https://www.typescriptlang.org/))
+#### **Server** ([NodeJS](https://nodejs.org/en/) + [TypeScript](https://www.typescriptlang.org/))
 
 - **[Express](https://expressjs.com/)**
 - **[CORS](https://expressjs.com/en/resources/middleware/cors.html)**
@@ -162,11 +161,11 @@ As seguintes ferramentas foram usadas na construção do projeto:
 
 ## 🦸‍♂️ Autor
 
- <img style="border-radius: 50%;" src="https://avatars1.githubusercontent.com/u/48029638?s=460&u=f8d11a7aa9ce76a782ef140a075c5c81be878f00&v=4" width="100px;" alt=""/>
+ <img style="border-radius: 50%;" src="https://avatars1.githubusercontent.com/u/48029638?s=460&u=f8d11a7aa9ce76a782ef140a075c5c81be878f00&v=4" width="150px;" alt=""/>
  <br />
  <br />
 
-[![Linkedin Badge](https://img.shields.io/badge/-Guilherme Rocha-blue?style=for-the-badge&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/grochavieira/)](https://www.linkedin.com/in/grochavieira/)
+[![Linkedin Badge](https://img.shields.io/badge/-Guilherme-blue?style=for-the-badge&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/grochavieira/)](https://www.linkedin.com/in/grochavieira/)
 [![Gmail Badge](https://img.shields.io/badge/-guirocha.hopeisaba@gmail.com-c14438?style=for-the-badge&logo=Gmail&logoColor=white&link=mailto:guirocha.hopeisaba@gmail.com)](mailto:guirocha.hopeisaba@gmail.com)
 
 ---
