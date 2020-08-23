@@ -43,7 +43,7 @@ Uma aplicação simples de posts e comentários como o twitter/facebook.
 
 ---
 
-## ⚙️ Funcionalidades
+## Funcionalidades
 
 - [x] Posts podem ser adicionados na plataforma web enviando:
 
