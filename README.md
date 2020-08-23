@@ -25,7 +25,7 @@
 
 ## 🏁 Tópicos
 
-- [Funcionalidades](#funcionalidades)
+- [Funcionalidades](#⚙️funcionalidades)
 <p>
  👉<a href="#-sobre-o-projeto" style="text-decoration: none; ">Sobre</a> <br/>
 
@@ -43,7 +43,7 @@ Uma aplicação simples de posts e comentários como o twitter/facebook.
 
 ---
 
-## :sunglasses: Funcionalidades
+## ⚙️ Funcionalidades
 
 - [x] Posts podem ser adicionados na plataforma web enviando:
 
