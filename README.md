@@ -26,8 +26,15 @@
 
 ## 🏁 Tópicos
 
-<p>
- <a href="#-sobre-o-projeto" style="text-decoration: none">👉 Sobre</a> <br/>
+<p style={
+    a{
+        text-decoration: none;
+    }
+    a:hover {
+        text-decoration: none;
+    }
+}>
+ <a href="#-sobre-o-projeto" style="text-decoration: none; ">👉 Sobre</a> <br/>
  <a href="#-funcionalidades" style="text-decoration: none">👉 Funcionalidades</a> <br/>
  <a href="#-layout" style="text-decoration: none">👉 Layout</a> <br/>
  <a href="#-como-executar-o-projeto" style="text-decoration: none">👉 Como executar</a> <br/> 
