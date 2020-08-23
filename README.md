@@ -41,7 +41,7 @@ Uma aplicação simples de posts e comentários como o twitter/facebook.
 
 ---
 
-## ⚙️ Funcionalidades
+## [](https://github.com/grochavieira/SimpleSocialMediaApp#-funcionalidades)⚙️ Funcionalidades
 
 - [x] Posts podem ser adicionados na plataforma web enviando:
 
@@ -161,8 +161,9 @@ As seguintes ferramentas foram usadas na construção do projeto:
 
 ## 🦸‍♂️ Autor
 
- <img style="border-radius: 50%;" src="https://avatars1.githubusercontent.com/u/48029638?s=460&u=f8d11a7aa9ce76a782ef140a075c5c81be878f00&v=4" width="150px;" alt=""/>
+ <img style="border-radius: 50%" src="https://avatars1.githubusercontent.com/u/48029638?s=460&u=f8d11a7aa9ce76a782ef140a075c5c81be878f00&v=4" width="100px;" alt=""/>
  <br />
+ <sub><b>Guilherme Rocha</b></sub>
  <br />
 
 [![Linkedin Badge](https://img.shields.io/badge/-Guilherme-blue?style=for-the-badge&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/grochavieira/)](https://www.linkedin.com/in/grochavieira/)
