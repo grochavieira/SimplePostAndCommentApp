@@ -61,13 +61,29 @@ Uma aplicação simples de posts e comentários como o twitter/facebook.
 
 ## 🎨 Layout
 
-Criação de posts:
+### Criação de posts:
 
 <p align="center">
-    <img src="assets/create_post.gif" width="50%" height="50%">
+    <img src="assets/create_post.gif">
 </p>
 
-Comentários:
+### Adição de comentários aos posts:
+
+<p align="center">
+    <img src="assets/create_comment.gif">
+</p>
+
+### Demonstração de pesquisa por ID:
+
+<p align="center">
+    <img src="assets/search_demonstration.gif">
+</p>
+
+### Demonstração da paginação:
+
+<p align="center">
+    <img src="assets/pagination_demonstration.gif">
+</p>
 
 ---
 
