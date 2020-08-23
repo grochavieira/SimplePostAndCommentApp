@@ -159,14 +159,13 @@ As seguintes ferramentas foram usadas na construção do projeto:
 
 ---
 
-## 🦸‍♂️ Autor
+## 🦸‍♂️ **Autor**
 
 <p>
- <img style="border-radius: 50px" src="https://avatars1.githubusercontent.com/u/48029638?s=460&u=f8d11a7aa9ce76a782ef140a075c5c81be878f00&v=4" width="100px;" alt=""/>
+ <img style="border-radius: 50px;" src="https://avatars1.githubusercontent.com/u/48029638?s=460&u=f8d11a7aa9ce76a782ef140a075c5c81be878f00&v=4" width="100px;" alt=""/>
  <br />
  <sub><b>Guilherme Rocha</b></sub>
 </p>
- <br />
 
 [![Linkedin Badge](https://img.shields.io/badge/-Guilherme-blue?style=for-the-badge&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/grochavieira/)](https://www.linkedin.com/in/grochavieira/)
 [![Gmail Badge](https://img.shields.io/badge/-guirocha.hopeisaba@gmail.com-c14438?style=for-the-badge&logo=Gmail&logoColor=white&link=mailto:guirocha.hopeisaba@gmail.com)](mailto:guirocha.hopeisaba@gmail.com)
