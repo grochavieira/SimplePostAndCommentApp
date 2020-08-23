@@ -42,7 +42,7 @@ Uma aplicação simples de posts e comentários como o twitter/facebook.
 
 ---
 
-<a name="funcionalidades"></a>
+<a name="-funcionalidades"></a>
 
 ## ⚙️ Funcionalidades
 
@@ -162,7 +162,7 @@ As seguintes ferramentas foram usadas na construção do projeto:
 
 ---
 
-<a name="autor"></a>
+<a name="-autor"></a>
 
 ## 🦸‍♂️ **Autor**
 
