@@ -26,13 +26,13 @@
 ## 🏁 Tópicos
 
 <p>
- 👉<a href="#-sobre-o-projeto" style="text-decoration: none; ">Sobre</a> <br/>
-👉<a href="#-funcionalidades" style="text-decoration: none; ">Funcionalidades</a> <br/>
-👉<a href="#-layout" style="text-decoration: none">Layout</a> <br/>
-👉<a href="#-como-executar-o-projeto" style="text-decoration: none">Como executar</a> <br/>
-👉<a href="#-tecnologias" style="text-decoration: none">Tecnologias</a> <br/>
-👉<a href="#-autor" style="text-decoration: none">Autor</a> <br/>
-👉<a href="#user-content--licença" style="text-decoration: none">Licença</a>
+ 👉<a href="#-sobre-o-projeto" style="text-decoration: none; "> Sobre</a> <br/>
+👉<a href="#-funcionalidades" style="text-decoration: none; "> Funcionalidades</a> <br/>
+👉<a href="#-layout" style="text-decoration: none"> Layout</a> <br/>
+👉<a href="#-como-executar-o-projeto" style="text-decoration: none"> Como executar</a> <br/>
+👉<a href="#-tecnologias" style="text-decoration: none"> Tecnologias</a> <br/>
+👉<a href="#-autor" style="text-decoration: none"> Autor</a> <br/>
+👉<a href="#user-content--licença" style="text-decoration: none"> Licença</a>
 
 </p>
 
@@ -181,7 +181,7 @@ As seguintes ferramentas foram usadas na construção do projeto:
 
 - Editor: **[Visual Studio Code](https://code.visualstudio.com/)** → Extensions: **[SQLite](https://marketplace.visualstudio.com/items?itemName=alexcvzz.vscode-sqlite)**
 - Teste de API: **[Insomnia](https://insomnia.rest/)**
-- Ícones: **[Feather Icons](https://feathericons.com/)**, **[Font Awesome](https://fontawesome.com/)**
+- Ícones: **[Feather Icons](https://feathericons.com/)**, **[Font Awesome](https://fontawesome.com/)**, **[Ionicons](https://ionicons.com/)**
 - Fontes: **[Raleway](https://fonts.google.com/specimen/Raleway)**
 
 ---
