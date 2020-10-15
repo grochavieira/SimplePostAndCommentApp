@@ -1,10 +1,10 @@
 <p align="center">
-  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/grochavieira/SimpleSocialMediaApp?color=%2304D361&style=for-the-badge">
+  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/grochavieira/SimplePostAndCommentApp?color=%2304D361&style=for-the-badge">
 
-  <img alt="Repository size" src="https://img.shields.io/github/repo-size/grochavieira/SimpleSocialMediaApp?style=for-the-badge">
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/grochavieira/SimplePostAndCommentApp?style=for-the-badge">
   
-  <a href="https://github.com/grochavieira/SimpleSocialMediaApp/commits/master">
-    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/grochavieira/SimpleSocialMediaApp?style=for-the-badge">
+  <a href="https://github.com/grochavieira/SimplePostAndCommentApp/commits/master">
+    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/grochavieira/SimplePostAndCommentApp?style=for-the-badge">
   </a>
     
    <img alt="License" src="https://img.shields.io/badge/license-MIT-brightgreen?style=for-the-badge">
@@ -107,10 +107,10 @@ Além disto é bom ter um editor para trabalhar com o código como [VSCode](http
 ```bash
 
 # Clone este repositório
-$ git clone https://github.com/grochavieira/SimpleSocialMediaApp.git
+$ git clone https://github.com/grochavieira/SimplePostAndCommentApp.git
 
 # Acesse a pasta do projeto no terminal/cmd
-$ cd SimpleSocialMediaApp
+$ cd SimplePostAndCommentApp
 
 # Vá para a pasta server
 $ cd server
@@ -133,10 +133,10 @@ $ npm run start
 ```bash
 
 # Clone este repositório
-$ git clone https://github.com/grochavieira/SimpleSocialMediaApp.git
+$ git clone https://github.com/grochavieira/SimplePostAndCommentApp.git
 
 # Acesse a pasta do projeto no seu terminal/cmd
-$ cd SimpleSocialMediaApp
+$ cd SimplePostAndCommentApp
 
 # Vá para a pasta da aplicação Front End
 $ cd web
@@ -164,7 +164,7 @@ As seguintes ferramentas foram usadas na construção do projeto:
 - **[Axios](https://github.com/axios/axios)**
 - **[React Dropzone](https://github.com/react-dropzone/react-dropzone)**
 
-> Veja o arquivo [package.json](https://github.com/grochavieira/SimpleSocialMediaApp/blob/master/web/package.json)
+> Veja o arquivo [package.json](https://github.com/grochavieira/SimplePostAndCommentApp/blob/master/web/package.json)
 
 #### **Server** ([NodeJS](https://nodejs.org/en/) + [TypeScript](https://www.typescriptlang.org/))
 
@@ -175,7 +175,7 @@ As seguintes ferramentas foram usadas na construção do projeto:
 - **[ts-node](https://github.com/TypeStrong/ts-node)**
 - **[Multer](https://github.com/expressjs/multer)**
 
-> Veja o arquivo [package.json](https://github.com/grochavieira/SimpleSocialMediaApp/blob/master/server/package.json)
+> Veja o arquivo [package.json](https://github.com/grochavieira/SimplePostAndCommentApp/blob/master/server/package.json)
 
 #### **Utilitários**
 
