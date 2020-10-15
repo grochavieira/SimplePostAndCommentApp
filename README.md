@@ -16,7 +16,7 @@
  
 </p>
 <h1 align="center">
-    Simple Social Media App
+    Simple Post and Comment App
 </h1>
 
 <h4 align="center"> 
